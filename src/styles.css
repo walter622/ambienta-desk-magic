@@ -38,6 +38,8 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
+  --color-cta: var(--cta);
+  --color-cta-foreground: var(--cta-foreground);
   --color-ring-offset-background: var(--background);
   --color-ink: var(--ink);
   --color-ink-foreground: var(--ink-foreground);
@@ -187,10 +189,10 @@
 @keyframes cta-pulse {
   0%,
   100% {
-    box-shadow: 0 0 0 0 color-mix(in oklab, var(--primary) 55%, transparent);
+    box-shadow: 0 0 0 0 color-mix(in oklab, var(--cta) 55%, transparent);
   }
   70% {
-    box-shadow: 0 0 0 14px color-mix(in oklab, var(--primary) 0%, transparent);
+    box-shadow: 0 0 0 14px color-mix(in oklab, var(--cta) 0%, transparent);
   }
 }
 
