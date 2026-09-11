@@ -15,6 +15,7 @@ import { Faq } from "@/components/landing/Faq";
 import { FinalCta } from "@/components/landing/FinalCta";
 import { ContactForm } from "@/components/landing/ContactForm";
 import { Footer } from "@/components/landing/Footer";
+import { FloatingApply } from "@/components/landing/FloatingApply";
 
 const title =
   "Estações de Trabalho Corporativas | Ambienta Mobiliário Corporativo";
@@ -55,6 +56,7 @@ function Index() {
         <ContactForm />
       </main>
       <Footer />
+      <FloatingApply />
     </div>
   );
 }

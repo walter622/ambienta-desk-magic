@@ -25,11 +25,11 @@ export function ContactForm() {
       <div className="mx-auto max-w-lg px-5 sm:px-8">
         <Reveal className="text-center">
           <h2 className="font-display text-3xl leading-tight sm:text-4xl">
-            Quer Levar Mais Organização e Eficiência{" "}
-            <span className="text-primary">Para Sua Empresa?</span>
+            Quer mais organização e escala{" "}
+            <span className="text-primary">para o seu escritório?</span>
           </h2>
           <p className="mt-4 text-sm text-ink-foreground/75">
-            Preencha o formulário e fale com um especialista da Ambienta.
+            Entre em contato conosco.
           </p>
         </Reveal>
 
@@ -64,7 +64,7 @@ export function ContactForm() {
             />
             <button
               type="submit"
-              className="cta-pulse w-full rounded-xl bg-primary px-8 py-4 text-base font-semibold text-primary-foreground transition-all hover:brightness-110"
+              className="cta-pulse w-full rounded-xl bg-cta px-8 py-4 text-base font-semibold text-cta-foreground transition-all hover:brightness-105"
             >
               {brand.ctaFinal}
             </button>
