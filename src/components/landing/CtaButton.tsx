@@ -19,7 +19,7 @@ export function CtaButton({
       className={cn(
         "group inline-flex items-center justify-center gap-2.5 rounded-full px-7 py-4 text-sm font-semibold tracking-wide transition-all duration-300",
         variant === "solid"
-          ? "bg-primary text-primary-foreground shadow-[0_12px_30px_-14px_var(--primary)] hover:-translate-y-0.5 hover:brightness-105"
+          ? "cta-pulse bg-primary text-primary-foreground hover:-translate-y-0.5 hover:brightness-110"
           : "border border-primary/60 text-primary hover:bg-primary/10",
         className,
       )}
