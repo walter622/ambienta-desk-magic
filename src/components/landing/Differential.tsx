@@ -82,6 +82,10 @@ export function Differential() {
             aplicada ao seu layout.
           </p>
         </Reveal>
+
+        <Reveal delay={180} className="mt-10 flex justify-center">
+          <CtaButton />
+        </Reveal>
       </div>
     </section>
   );

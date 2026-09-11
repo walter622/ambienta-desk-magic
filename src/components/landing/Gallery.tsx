@@ -76,6 +76,10 @@ export function Gallery() {
             </p>
           ))}
         </Reveal>
+
+        <Reveal delay={160} className="mt-10 flex justify-center">
+          <CtaButton />
+        </Reveal>
       </div>
     </section>
   );
