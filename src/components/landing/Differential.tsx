@@ -1,4 +1,5 @@
 import { Check, X } from "lucide-react";
+import { CtaButton } from "./CtaButton";
 import { Reveal } from "./Reveal";
 
 const linhas = [

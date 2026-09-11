@@ -1,5 +1,6 @@
 import { Check } from "lucide-react";
 import { images } from "@/lib/brand";
+import { CtaButton } from "./CtaButton";
 import { Reveal } from "./Reveal";
 
 const fotos = [
