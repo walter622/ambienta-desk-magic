@@ -16,8 +16,7 @@ export function Problem() {
       <div className="mx-auto grid max-w-7xl gap-14 px-5 sm:px-8 lg:grid-cols-[1fr_0.85fr] lg:items-center">
         <div>
           <Reveal>
-            <p className="eyebrow text-primary">O problema</p>
-            <h2 className="mt-4 max-w-xl font-display text-3xl leading-tight sm:text-4xl">
+            <h2 className="max-w-xl font-display text-3xl leading-tight sm:text-4xl">
               O Problema que Ninguém Resolve na Infraestrutura de Mesas
             </h2>
             <p className="mt-5 max-w-xl text-sm leading-relaxed text-ink-foreground/70 sm:text-base">

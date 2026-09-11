@@ -38,8 +38,7 @@ export function Faq() {
     <section id="faq" className="border-y border-border bg-card/60 py-20 lg:py-28">
       <div className="mx-auto grid max-w-6xl gap-12 px-5 sm:px-8 lg:grid-cols-[0.8fr_1.2fr]">
         <Reveal>
-          <p className="eyebrow text-primary">Dúvidas</p>
-          <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl">
+          <h2 className="font-display text-3xl leading-tight sm:text-4xl">
             Perguntas Frequentes
           </h2>
         </Reveal>

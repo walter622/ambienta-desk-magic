@@ -41,4 +41,5 @@ export const nav = [
   { label: "Modelos", href: "#modelos" },
   { label: "Entrega", href: "#entrega" },
   { label: "FAQ", href: "#faq" },
+  { label: "Contato", href: "#contato" },
 ];

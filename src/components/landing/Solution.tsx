@@ -34,8 +34,7 @@ export function Solution() {
     <section id="solucao" className="border-y border-border bg-card/60 py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <Reveal className="max-w-3xl">
-          <p className="eyebrow text-primary">A solução</p>
-          <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl">
+          <h2 className="font-display text-3xl leading-tight sm:text-4xl">
             A Solução: Plataformas Modulares de Alta Performance Ambienta
           </h2>
           <p className="mt-5 text-base text-muted-foreground">
@@ -55,7 +54,7 @@ export function Solution() {
               <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary/15 text-primary">
                 <p.icon className="h-5 w-5" />
               </span>
-              <h3 className="mt-5 font-display text-xl">{p.title}</h3>
+              <h3 className="font-display text-xl">{p.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                 {p.text}
               </p>
