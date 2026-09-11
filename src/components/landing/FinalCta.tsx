@@ -23,7 +23,7 @@ export function FinalCta() {
             crescimento.
           </p>
           <p className="mt-4 text-sm text-ink-foreground/70">
-            Clique abaixo e fale agora com a Ambienta Mobiliário Corporativo
+            Clique abaixo e preencha o formulário de contato
           </p>
           <div className="mt-9 flex justify-center">
             <CtaButton className="px-8 text-center">{brand.ctaFinal}</CtaButton>

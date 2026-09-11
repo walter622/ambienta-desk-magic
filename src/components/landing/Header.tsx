@@ -45,12 +45,10 @@ export function Header() {
 
         <div className="flex items-center gap-3">
           <a
-            href={brand.whatsappUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="cta-pulse hidden rounded-full bg-primary px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.12em] text-primary-foreground transition-all hover:brightness-110 sm:inline-flex"
+            href="#contato"
+            className="cta-pulse hidden rounded-xl bg-cta px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.12em] text-cta-foreground transition-all hover:brightness-105 sm:inline-flex"
           >
-            Falar no WhatsApp
+            Fale com um Especialista
           </a>
           <button
             type="button"

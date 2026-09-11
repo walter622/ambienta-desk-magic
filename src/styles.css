@@ -38,6 +38,8 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
+  --color-cta: var(--cta);
+  --color-cta-foreground: var(--cta-foreground);
   --color-ring-offset-background: var(--background);
   --color-ink: var(--ink);
   --color-ink-foreground: var(--ink-foreground);
@@ -71,6 +73,8 @@
   --popover-foreground: oklch(0.245 0.035 264);
   --primary: oklch(0.79 0.098 199);
   --primary-foreground: oklch(0.22 0.035 264);
+  --cta: oklch(0.72 0.19 148);
+  --cta-foreground: oklch(1 0 0);
   --secondary: oklch(0.245 0.035 264);
   --secondary-foreground: oklch(0.99 0 0);
   --muted: oklch(0.958 0.005 220);
@@ -112,6 +116,8 @@
   --popover-foreground: oklch(0.975 0.004 220);
   --primary: oklch(0.79 0.098 199);
   --primary-foreground: oklch(0.225 0.032 264);
+  --cta: oklch(0.72 0.19 148);
+  --cta-foreground: oklch(1 0 0);
   --secondary: oklch(0.32 0.03 264);
   --secondary-foreground: oklch(0.975 0.004 220);
   --muted: oklch(0.32 0.03 264);
@@ -187,10 +193,10 @@
 @keyframes cta-pulse {
   0%,
   100% {
-    box-shadow: 0 0 0 0 color-mix(in oklab, var(--primary) 55%, transparent);
+    box-shadow: 0 0 0 0 color-mix(in oklab, var(--cta) 55%, transparent);
   }
   70% {
-    box-shadow: 0 0 0 14px color-mix(in oklab, var(--primary) 0%, transparent);
+    box-shadow: 0 0 0 14px color-mix(in oklab, var(--cta) 0%, transparent);
   }
 }
 
