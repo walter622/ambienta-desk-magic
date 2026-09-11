@@ -1,5 +1,6 @@
 import { Check } from "lucide-react";
 import { images } from "@/lib/brand";
+import { CtaButton } from "./CtaButton";
 import { Reveal } from "./Reveal";
 
 const fotos = [
@@ -74,6 +75,10 @@ export function Gallery() {
               <span className="text-sm leading-snug text-foreground/85">{d}</span>
             </p>
           ))}
+        </Reveal>
+
+        <Reveal delay={160} className="mt-10 flex justify-center">
+          <CtaButton />
         </Reveal>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import { Check, X } from "lucide-react";
+import { CtaButton } from "./CtaButton";
 import { Reveal } from "./Reveal";
 
 const linhas = [
@@ -80,6 +81,10 @@ export function Differential() {
             <span className="italic text-primary">inteligência operacional</span>{" "}
             aplicada ao seu layout.
           </p>
+        </Reveal>
+
+        <Reveal delay={180} className="mt-10 flex justify-center">
+          <CtaButton />
         </Reveal>
       </div>
     </section>

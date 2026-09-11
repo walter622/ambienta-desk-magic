@@ -1,4 +1,5 @@
 import { Building2, Users, ClipboardCheck, Compass, Network } from "lucide-react";
+import { CtaButton } from "./CtaButton";
 import { Reveal } from "./Reveal";
 
 const perfis = [
@@ -46,6 +47,10 @@ export function IdealFor() {
             </Reveal>
           ))}
         </div>
+
+        <Reveal delay={160} className="mt-10 flex justify-center">
+          <CtaButton />
+        </Reveal>
       </div>
     </section>
   );
