@@ -23,8 +23,7 @@ export function Hero() {
       <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 pb-16 sm:px-8 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:pb-24">
         <div>
           <Reveal>
-            <p className="eyebrow text-primary">Mobiliário corporativo B2B</p>
-            <h1 className="mt-5 font-display text-[2.1rem] leading-[1.1] sm:text-5xl lg:text-[3.4rem]">
+            <h1 className="font-display text-[2.1rem] leading-[1.1] sm:text-5xl lg:text-[3.4rem]">
               Estações de Trabalho Corporativas para Escritórios que Precisam de{" "}
               <span className="italic text-primary">Organização, Escala</span> e
               Alta Performance

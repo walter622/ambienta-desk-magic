@@ -36,8 +36,7 @@ export function Differential() {
     <section className="py-20 lg:py-28">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Reveal className="max-w-2xl">
-          <p className="eyebrow text-primary">Comparativo</p>
-          <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl">
+          <h2 className="font-display text-3xl leading-tight sm:text-4xl">
             Diferencial Real: O que o mercado não entrega
           </h2>
         </Reveal>

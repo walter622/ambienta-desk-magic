@@ -32,8 +32,7 @@ export function Process() {
     <section id="entrega" className="py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <Reveal className="max-w-2xl">
-          <p className="eyebrow text-primary">Processo</p>
-          <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl">
+          <h2 className="font-display text-3xl leading-tight sm:text-4xl">
             Como Funciona a Entrega Ambienta
           </h2>
           <p className="mt-4 text-base text-muted-foreground">

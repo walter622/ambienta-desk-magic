@@ -27,8 +27,7 @@ export function Authority() {
 
         <div>
           <Reveal delay={80}>
-            <p className="eyebrow text-primary">Autoridade</p>
-            <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl">
+            <h2 className="font-display text-3xl leading-tight sm:text-4xl">
               Por Que a Ambienta Tem Autoridade Para Entregar Isso?
             </h2>
             <p className="mt-5 text-sm leading-relaxed text-ink-foreground/75 sm:text-base">

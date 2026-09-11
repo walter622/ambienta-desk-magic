@@ -39,8 +39,7 @@ export function Gallery() {
     <section id="projetos" className="py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <Reveal className="max-w-2xl">
-          <p className="eyebrow text-primary">Projetos instalados</p>
-          <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl">
+          <h2 className="font-display text-3xl leading-tight sm:text-4xl">
             Veja Nossas Soluções de Estações de Trabalho em Ação
           </h2>
         </Reveal>
