@@ -50,7 +50,7 @@ export function Header() {
             href={brand.whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden rounded-full bg-foreground px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.12em] text-background transition-colors hover:bg-foreground/90 sm:inline-flex"
+            className="cta-pulse hidden rounded-full bg-primary px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.12em] text-primary-foreground transition-all hover:brightness-110 sm:inline-flex"
           >
             Falar no WhatsApp
           </a>

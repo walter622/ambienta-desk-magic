@@ -13,6 +13,7 @@ import { Models } from "@/components/landing/Models";
 import { Process } from "@/components/landing/Process";
 import { Faq } from "@/components/landing/Faq";
 import { FinalCta } from "@/components/landing/FinalCta";
+import { ContactForm } from "@/components/landing/ContactForm";
 import { Footer } from "@/components/landing/Footer";
 
 const title =
@@ -51,6 +52,7 @@ function Index() {
         <Process />
         <Faq />
         <FinalCta />
+        <ContactForm />
       </main>
       <Footer />
     </div>
