@@ -46,7 +46,7 @@ export function Header() {
         <div className="flex items-center gap-3">
           <a
             href="#contato"
-            className="cta-pulse hidden rounded-xl bg-cta px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.12em] text-cta-foreground transition-all hover:brightness-105 sm:inline-flex"
+            className="cta-pulse hidden whitespace-nowrap rounded-xl bg-cta px-4 py-2.5 text-xs font-semibold uppercase tracking-[0.12em] text-cta-foreground transition-all hover:brightness-105 sm:inline-flex lg:px-5"
           >
             Fale com um Especialista
           </a>

@@ -21,7 +21,7 @@ export const brand = {
   tagline: "Mobiliário Corporativo",
   whatsappUrl: "https://wa.me/5511999999999?text=Ol%C3%A1%2C%20quero%20falar%20sobre%20esta%C3%A7%C3%B5es%20de%20trabalho",
   ctaPrimary: "Fale com um Especialista",
-  ctaFinal: "Quero Falar com a Ambienta sobre Estações de Trabalho",
+  ctaFinal: "Falar com a Ambienta",
   address:
     "Rua Adib Auada, 35 - Cj 402 C - Granja Viana - Cotia - SP | CEP 06710-700",
   copyright: "© Ambienta Mobiliário Corporativo. Todos os direitos reservados.",

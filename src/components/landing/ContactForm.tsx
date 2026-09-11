@@ -64,7 +64,7 @@ export function ContactForm() {
             />
             <button
               type="submit"
-              className="cta-pulse w-full rounded-xl bg-cta px-8 py-4 text-base font-semibold text-cta-foreground transition-all hover:brightness-105"
+              className="cta-pulse w-full whitespace-nowrap rounded-xl bg-cta px-6 py-4 text-base font-semibold text-cta-foreground transition-all hover:brightness-105 sm:px-8"
             >
               {brand.ctaFinal}
             </button>
