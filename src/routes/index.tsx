@@ -1,24 +1,58 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
+import { Header } from "@/components/landing/Header";
+import { Hero } from "@/components/landing/Hero";
+import { Problem } from "@/components/landing/Problem";
+import { Gallery } from "@/components/landing/Gallery";
+import { Solution } from "@/components/landing/Solution";
+import { Differential } from "@/components/landing/Differential";
+import { Authority } from "@/components/landing/Authority";
+import { IdealFor } from "@/components/landing/IdealFor";
+import { OfferBreak } from "@/components/landing/OfferBreak";
+import { Models } from "@/components/landing/Models";
+import { Process } from "@/components/landing/Process";
+import { Faq } from "@/components/landing/Faq";
+import { FinalCta } from "@/components/landing/FinalCta";
+import { Footer } from "@/components/landing/Footer";
+
+const title =
+  "Estações de Trabalho Corporativas | Ambienta Mobiliário Corporativo";
+const description =
+  "Plataformas modulares de 2 a 16 posições com passa-cabos embutidos, ergonomia NR-17, montagem própria e 5 anos de garantia. Entrega em 30 a 35 dias.";
+
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title },
+      { name: "description", content: description },
+      { property: "og:title", content: title },
+      { property: "og:description", content: description },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background">
+      <Header />
+      <main>
+        <Hero />
+        <Problem />
+        <Gallery />
+        <Solution />
+        <Differential />
+        <Authority />
+        <IdealFor />
+        <OfferBreak />
+        <Models />
+        <Process />
+        <Faq />
+        <FinalCta />
+      </main>
+      <Footer />
     </div>
   );
 }
