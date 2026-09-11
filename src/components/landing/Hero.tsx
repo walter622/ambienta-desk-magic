@@ -54,8 +54,8 @@ export function Hero() {
           <Reveal delay={200}>
             <div className="mt-9 flex flex-col items-start gap-4">
               <p className="text-sm text-muted-foreground">
-                Clique abaixo e fale com um especialista da Ambienta pelo
-                WhatsApp
+                Clique abaixo, preencha o formulário e fale com um especialista
+                da Ambienta
               </p>
               <CtaButton />
               <p className="text-xs leading-relaxed text-muted-foreground">
