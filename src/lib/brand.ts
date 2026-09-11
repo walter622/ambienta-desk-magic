@@ -5,6 +5,9 @@ import img4 from "@/assets/ambienta-4.jpg.asset.json";
 import img5 from "@/assets/ambienta-5.jpg.asset.json";
 import img6 from "@/assets/ambienta-6.jpg.asset.json";
 import img7 from "@/assets/ambienta-7.jpg.asset.json";
+import logoAsset from "@/assets/ambienta-logo.png.asset.json";
+
+export const logo = logoAsset.url;
 
 /**
  * Ponto único de personalização da landing page.
